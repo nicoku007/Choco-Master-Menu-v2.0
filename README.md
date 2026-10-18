@@ -17,6 +17,8 @@ Description: Choco-Master-Menu is a launcher I created for Chocolate Doom. My ma
      
  Launcher features:
 
+For full screen mode you can press F1 and to return the screen to normal press Escape.
+
 Iwads: the possibility of choosing the Iwad to play without the need to enter chocolate-doom.setup to configure a specific Iwad or to have 4 folders with their respective Iwad.
 
 Custom wads: The possibility of playing with custom WADs from the community or your own (vanilla compatible of course), you can also combine different WADs if the game requires it, for example: Back to  SaturnX "btsx_e1a.wad + btsx_e1b.wad", mix MIDI or MUS files with a WAD if a WAD has it, Hell Revealed: "HR.WAD + HRMUS.WAD" or also you can use DEH files for a WAD that uses special textures, "1k3v1a.wad +   1k3v1a.deh".
