@@ -1,77 +1,72 @@
 
-# Choco-Master-Menu for Chocolate Doom (Iwads, custom wads, Master Levels, Maximum Doom). NOW ON IDGAMES! https://www.doomworld.com/idgames/utils/frontends/chocomenu
+# Choco-Master-Menu for Chocolate Doom, Heretic, Hexen and Strife.
 
-![choco 1.2-1.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-1.png?raw=true )
+![choco 2.0-1.jpg](https://github.com/nicoku007/Choco-Master-Menu-v1.2/blob/main/choco%202.0-1.jpg?raw=true )
 
-![choco 1.2-2.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-2.png?raw=true )
+![choco 2.0-2.jpg](https://github.com/nicoku007/Choco-Master-Menu-v1.2/blob/main/choco%202.0-2.jpg?raw=true )
 
-![choco 1.2-3.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-3.png?raw=true )
 
-![choco 1.2-4.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-4.png?raw=true )
+Choco-Master-Menu is a launcher built in C# with Windows Forms, designed for Chocolate Doom. Originally created to provide a native menu for the Master Levels, it evolved into a comprehensive frontend that eliminates the need for manual command-line execution. This new version 2.0 introduces dynamic support for Chocolate Heretic, Hexen, and Strife.
 
-![choco 1.2-5.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-5.png?raw=true )
+Main Features
 
-![choco 1.2-6.png](https://github.com/nicoku007/Choco-Master-Menu-v1.1/blob/main/choco-1.2/choco%201.2-6.png?raw=true )
+• Multi-Game Support: Launch and manage Doom, Heretic, Hexen, and Strife from a single unified interface.
 
-Description: Choco-Master-Menu is a launcher I created for Chocolate Doom. My main idea was to create a  menu for the Master Levels in Chocolate Doom, because there isn't anything like  Doom-it for this source port,  but as I progressed with the launcher, I decided to add some more features such as multiplayer, the possibility  of playing with custom wads, Maximum Doom,  recording demos, etc.  The launcher was created using the C#  programming language.                       
-     
- Launcher features:
+• IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-For full screen mode you can press F1 and to return the screen to normal press Escape.
+• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture.
 
-Iwads: the possibility of choosing the Iwad to play without the need to enter chocolate-doom.setup to configure a specific Iwad or to have 4 folders with their respective Iwad.
+• Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
 
-Custom wads: The possibility of playing with custom WADs from the community or your own (vanilla compatible of course), you can also combine different WADs if the game requires it, for example: Back to  SaturnX "btsx_e1a.wad + btsx_e1b.wad", mix MIDI or MUS files with a WAD if a WAD has it, Hell Revealed: "HR.WAD + HRMUS.WAD" or also you can use DEH files for a WAD that uses special textures, "1k3v1a.wad +   1k3v1a.deh".
- 
-Master Levels Menu: The launcher has a menu for playing the Master Levels for Doom 2, eliminating the need to enter cumbersome parameters in the command line to select each map. The menu also includes the Master MIDI Pack to add musical variety to the levels. (Thanks to Peter Lawrence for allowing me to use the MIDI Pack for the menu.).
+• Quick Controls: Press F1 for full screen mode and Escape to return to windowed mode.
 
-Campaign mode for Master Levels: Integrated an automated virtual campaign data streamer for the Master Levels that generates temporary engine scripts natively in Windows Temp. This completely insulates and safeguards original game files against modifications, deploying an automated garbage collector to erase all temporary virtual files instantly on process exit. The second part of the campaign features a new sky with dark blue clouds to match the launcher's default color (Deep Charcoal Blue).
+Special Modes (Doom / Doom 2)
 
-Maximum Doom: The launcher has a session for Maximum Doom, the wads are separated into "maximum Doom 1" and "Maximum Doom 2" and are programmed to work only with their own  Iwad "DOOM.WAD" or "DOOM2.WAD".
+• Master Levels Menu: Run any Master Levels for Doom 2 map directly without typing cumbersome parameters. Fully integrates Peter Lawrence's Master MIDI Pack.
 
-Multiplayer: The menu includes options for multiplayer, cooperative deathmatch, deathmatch 2.0, private server, setting your server name, UDP port, auto join, as well as using server address. Each menu session has multiplayer options that only work for that session to prevent errors.
+• Campaign Mode: Automatically sequences levels by generating temporary scripts in Windows Temp to protect your original files, featuring a garbage collector that wipes them on exit. Includes a custom sky with dark blue clouds.
 
-Player name: The launcher can detect the chocolate-doom.cfg file, allowing you to change the player name from the menu without needing to use chocolate-doom.setup.
- 
-The need to use quotation marks has been eliminated: Quotation marks (" ") are configured within the launcher's code, so there is no longer any need to use them when entering the server or player name.
+• Maximum Doom: Dedicated section with separate folders (maximum1 and maximum2) programmed to work exclusively with their respective IWADs.
 
-Parameters: Each menu session has parameters to modify the game if you wish. These include: No monsters, Fast monsters, Respawn monsters, and Turbo.
+Multiplayer, Parameters & Demos
 
-Extra parameters option: a text box allows you to enter and use parameters that are not found in the launcher.
+• Advanced Multiplayer: Independent options per session (Cooperative, Deathmatch, Deathmatch 2.0, private server, IP, UDP port, server name, and auto-join). Lets you query the Chocolate Doom Master Server or search the local area.
 
-Demo: Each session has the option to record and view demos of your games; the "Demo File" button is used to search for the lmp files you have created.
+• Simplified Player Name: Reads your chocolate-doom.cfg file to change your name from the menu. The code handles the necessary quotation marks (" ") automatically.
 
-Master Server and Locar Search: the possibility of viewing the Chocolate Doom master server or searching for a server in the local area.
+• Engine Parameters: Direct toggles for No monsters, Fast monsters, Respawn monsters, and Turbo, along with an Extra Parameters text box for any other command argument.
 
-Direct Setup Access: Added a new button in the IWADs / Custom WADs section that lets you launch chocolate-doom.setup directly. Now you can configure your controls, change music formats, and tweak settings without needing to close the launcher.
+• Demo Recorder: Session-specific tools to record or play back your .lmp files with a dedicated file browser.
 
-Added a dedicated "Color" layout tab featuring 2 independent 16-color MS-DOS CGA/EGA/VGA style selection ListBoxes to adjust backgrounds and fonts natively.
+Visual Customization (Retro Tribute)
 
-Note: MS-DOS colors were too bright for modern screens, so the colors were softened to avoid eye strain
+• Smart Retro Layout: Default Deep Charcoal Blue design with Cyan borders as a visual tribute to the classic setup tool. Harsh pure white backgrounds were replaced with a subdued white to reduce eye strain.
 
-A brightness selector for both background and font colors was added as an extra measure to prevent eye strain.
+• Native Color Tuning: Tab featuring independent 16-color MS-DOS CGA/EGA/VGA style selection ListBoxes for fonts, backgrounds, and launcher borders. Includes a brightness selector to protect your eyesight.
 
-- New features for Choco-Master-Menu v1.2:
 
-Border Customization: Added a third color ListBox, allowing you to choose from 16 different colors to customize your launcher's borders
+Installation Instructions
 
-The Master MIDI pack now fully works alongside the Campaign Mode for Master Levels, bringing enhanced music tracking to your gameplay.
+1. Extract the entire "choco-master-menu" folder from the ZIP archive and place it anywhere on your system.
 
-Replaced the old Navy Blue color with Deep Charcoal Blue. Together with the new default Cyan borders, this layout is an intentional visual tribute to the iconic MS-DOS style of chocolate-doom.setup. Of course, you can still fully customize and change these colors to your liking!
+2. Run Choco-Master-Menu.exe and use the Browse buttons to select your game executables.
+   * The button to find "chocolate-doom.exe" is inside the "Locate .exe" section.
+   * The button for Heretic, Hexen, and Strife is located inside the "SPECIAL GUESTS" section.
+   * Note for Special Guests: Once you have located the three executables (chocolate-heretic.exe,    
+      chocolate-hexen.exe, and chocolate-strife.exe), simply change the title in the Game combobox, 
+      and the launcher will automatically switch to the corresponding executable.
 
-Replaced the harsh pure white backgrounds of the list boxes and text boxes with a more subdued white to prevent visual fatigue during long setups.
+3. Important Note: The master-wads, maximum1, and maximum2 folders must remain in the same directory as Choco-Master-Menu.exe for the Master Levels and Maximum Doom features to work properly.
 
-INSTRUCTIONS:                                                                 
-  
- 1: All you have to do is put Choco-Master-Menu.exe in the same directory where you have chocolate-doom.exe. 
- 
- 2: You need the Master Levels wads, Put the Master Levels wads inside the folder called "master-wads", the folder is included in the zip file.
+4. Place your Master Levels files inside the master-wads folder.
 
- 3: Put the maximum doom wads corresponding to DOOM 1 inside the folder called "maximum1" and the wads  corresponding to DOOM 2 inside "maximum2". The folders are included in the  zip file.
- 
- 4: Put the iwads in the same directory: "DOOM.WAD, DOOM2.WAD, TNT.WAD, and PLUTONIA.WAD". This way you can select them from the menu without having to go into chocolate- doom.setup and if you have plutmidi.wad in the same directory, the menu will detect it automatically.
+5. Place your Maximum Doom files inside their respective folders: maximum1 (for Doom 1) and maximum2 (for Doom 2).
 
- Choco-Master-Menu by Nicokugame007.
- 
- Credit for the Master Midi pack goes to Peter Lawrence.
+6. Keep your official IWADs (DOOM.WAD, DOOM2.WAD, TNT.WAD, PLUTONIA.WAD, HERETIC.WAD, HEXEN.WAD, STRIFE1.WAD) in the same directory as their respective game executables to allow the launcher to detect them.
 
+
+Credits
+
+• Developer: Nicokugame007
+
+• Master MIDI Pack: Peter Lawrence
