@@ -14,7 +14,7 @@ Main Features
 
 • IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture.
+• WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture. To select more than one custom WAD, hold down the CTRL key.
 
 • Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
 
