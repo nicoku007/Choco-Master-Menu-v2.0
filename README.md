@@ -47,7 +47,7 @@ Visual Customization (Retro Tribute)
 
 Installation Instructions
 
-1. Extract the entire "choco-master-menu" folder from the ZIP archive and place it anywhere on your system.
+1. Extract the entire choco-master-menu folder from the ZIP archive and place it anywhere on your system. The master-wads folder (for Master Levels WADs), and the maximum1 and maximum2 folders (for Maximum Doom WADs) are already included inside the ZIP.
 
 2. Run Choco-Master-Menu.exe and use the Browse buttons to select your game executables.
    * The button to find "chocolate-doom.exe" is inside the "Locate .exe" section.
