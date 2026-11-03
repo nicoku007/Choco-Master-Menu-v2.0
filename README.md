@@ -1,5 +1,5 @@
 
-# Choco-Master-Menu for Chocolate Doom, Heretic, Hexen and Strife.
+# Choco-Master-Menu v2.0 for Chocolate Doom, Heretic, Hexen and Strife.
 
 ![choco 2.0-1.jpg](https://github.com/nicoku007/Choco-Master-Menu-v1.2/blob/main/choco%202.0-1.jpg?raw=true )
 
