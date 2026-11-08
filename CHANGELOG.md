@@ -14,4 +14,4 @@ This updated version of Choco-Master-Menu features new characteristics.
 
 4. Support for Crispy Heretic, Hexen, and Strife.
 
-5. • Custom WADs and WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture. To select more than one custom WAD, hold down the CTRL key. Additionally, the launcher now automatically chooses the correct IWAD and map for any selected WAD (starting from the first map for multi-level campaigns, or jumping straight to the correct level for single-map mods).
+5. Custom WADs and WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture. To select more than one custom WAD, hold down the CTRL key. Additionally, the launcher now automatically chooses the correct IWAD and map for any selected WAD (starting from the first map for multi-level campaigns, or jumping straight to the correct level for single-map mods).
