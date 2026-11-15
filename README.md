@@ -14,7 +14,7 @@ Main Features
 
 • IWAD Management: Directly select your official IWADs without configuring the engine setup or duplicating folders. It automatically detects plutmidi.wad.
 
-• Custom WADs and WAD Combining: Cleanly load secondary files (.wad, .deh, Heretic's .hhe patches, Hexen's .hex patches and strife's .seh patches ), perfect for mixing maps with custom texture. To select more than one custom WAD, hold down the CTRL key. Additionally, the launcher now automatically chooses the correct IWAD and map for any selected WAD (starting from the first map for multi-level campaigns, or jumping straight to the correct level for single-map mods).
+• Custom WADs and WAD Combining:** Cleanly load secondary files (`.wad`, `.deh`, Heretic's `.hhe` patches, Hexen's `.hex` patches, and Strife's `.seh` patches), perfect for mixing maps with custom textures. To select more than one custom WAD, hold down the **CTRL** key. Additionally, the launcher automatically chooses the correct IWAD and map for any selected WAD (starting from the first map for multi-level campaigns, or jumping straight to the correct level for single-map mods). It also features a dedicated info box displaying the compatible IWAD, total map count, and exact map range (e.g., `MAP01 - MAP32`), along with an expanded 50-slot level selector (`MAP01` to `MAP50`) to accommodate megawads that exceed the classic 32-level limit.
 
 • Direct Setup Access: Dedicated button to instantly launch chocolate-doom.setup without needing to close the launcher.
 
